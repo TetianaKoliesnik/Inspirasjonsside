@@ -1,0 +1,14 @@
+.grid{
+	display: grid;
+	background-color: lightpink;
+	grid-template-columns: repeat(12, 1fr);
+	gap: var(--spasing-small);
+}
+
+.column--3 {
+	grid-column-end: span 3; /* 3 out of 12 (works together with parent(grid-template-columns)) */
+}
+
+.column--2 {
+	grid-column-end: span 2;
+}
