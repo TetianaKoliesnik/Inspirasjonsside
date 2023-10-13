@@ -1,0 +1,16 @@
+:root {
+	--font-size-base: 30px;
+	--font-size-small: 1rem;
+	--font-size-medium: 1rem;
+	--font-size-large: 1rem;
+
+	--font-leading-base: 1rem;
+	--font-leading-small: 1rem;
+	--font-leading-medium: 1rem;
+	--font-leading-large: 1rem;
+
+	--spasing-small: var(--font-leading-base);
+	--spasing-medium: 2rem;
+	--spasing-large: 4rem;
+	
+}
