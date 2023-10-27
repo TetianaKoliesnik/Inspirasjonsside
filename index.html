@@ -11,32 +11,29 @@
 </head>
 
 <body>
-	<nav class="navigation-bar">
-		<div class="grid">
-			<div class="column--6 offset--3">
-				<h1>Everything you need for your website</h1>
-			</div>
-
-		</div>
-		<div class="grid">
-			<div class="column--2 offset--2">
-				<img class="logo" src="assets\InspoLogo.jpg" alt="">
-			</div>
-			<div class="column--2 offset--9">
-				<h2>On one page!</h2>
-			</div>
-		</div>
-
-
-	</nav>
+	<div class="container-for-nav"> <!-- because I could not find a better way to center the navigation-bar -->
+		<nav class="navigation-bar">
+			<img class="logo" src="assets\InspoLogo.jpg" alt="geometric logo">
+			<div class="text--big">All you need for your website</div>
+			<div class="text--medium">On one page!</div>
+		</nav>
+	</div>
 
 	<section class="page section">
 		<div class="grid">
 			<div class="column--5 offset--1 container">
-				<img src="assets\siteinspire1.jpg" alt="">
-				<div class="site-description">Siteinspire is a showcase of the finest web and interactive design.</div>
-				<a class="link-to--site" href="#">Visit the site</a>
+				<!-- <img src="assets\siteinspire1.jpg" alt="">
+				
+				<a class="link-to--site" href="https://www.siteinspire.com/">Visit the site</a> -->
+
+				<a href="https://www.siteinspire.com/">
+					<img class="site-screenshot" src="assets\siteinspire1.jpg" alt="Showcase of the finest web and interactive design">
+				</a>
+				  <div class="site-description">Siteinspire is a showcase of the finest web and interactive design.</div><!--  -->
 			</div>
+
+		
+			  
 
 			<div class="column--5 container">
 				<img src="assets\codepen2.jpg" alt="">
