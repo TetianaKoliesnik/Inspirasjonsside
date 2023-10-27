@@ -12,3 +12,9 @@ ol, ul {
 img {
 	width: 100%;
 }
+
+a {
+	color: transparent;
+	background-color: transparent;
+	text-decoration: none;
+  }

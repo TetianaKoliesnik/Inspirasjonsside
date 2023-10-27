@@ -17,6 +17,28 @@ html {
 	margin-bottom: var(--spacing-medium);
 }
 
+.logo{
+	width: 5em;
+	height: 5em;
+}
+
+.container-for-nav{
+	display: flex;
+	justify-content: center;
+}
+
+.navigation-bar{
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: aqua;
+}
+
+.site-screenshot:hover {
+	transform: scale(1.1); /* Scale the element by 10% on hover */
+	transition: transform 0.3s; 
+  }
 
 @media screen and (min-width: 1920px) {
 	body {
